@@ -3,11 +3,37 @@
   "version": "0.1.0",
   "description": "ScriptGrain command line: build a voice profile from your own writing, no account needed to start.",
   "type": "module",
-  "bin": { "scriptgrain": "bin/scriptgrain.js" },
+  "bin": {
+    "scriptgrain": "bin/scriptgrain.js"
+  },
   "main": "src/main.js",
-  "files": ["bin", "src", "README.md", "CHANGELOG.md", "LICENSE"],
-  "engines": { "node": ">=18" },
-  "scripts": { "test": "node --test test/cli.test.js" },
-  "keywords": ["scriptgrain", "voice", "writing", "cli", "ai-agents"],
-  "license": "MIT"
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/cli.test.js"
+  },
+  "keywords": [
+    "scriptgrain",
+    "voice",
+    "writing",
+    "cli",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StovBuilds/scriptgrain-cli.git"
+  },
+  "homepage": "https://scriptgrain.com/docs/api.md",
+  "bugs": {
+    "url": "https://github.com/StovBuilds/scriptgrain-cli/issues"
+  }
 }
