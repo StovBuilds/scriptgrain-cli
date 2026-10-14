@@ -1,0 +1,13 @@
+{
+  "name": "scriptgrain",
+  "version": "0.1.0",
+  "description": "ScriptGrain command line: build a voice profile from your own writing, no account needed to start.",
+  "type": "module",
+  "bin": { "scriptgrain": "bin/scriptgrain.js" },
+  "main": "src/main.js",
+  "files": ["bin", "src", "README.md", "CHANGELOG.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/cli.test.js" },
+  "keywords": ["scriptgrain", "voice", "writing", "cli", "ai-agents"],
+  "license": "MIT"
+}
