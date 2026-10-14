@@ -22,7 +22,7 @@ profile create options
 Global options
   --json           machine-readable output (every command)
   --key <key>      API key (else SCRIPTGRAIN_API_KEY, else stored login/guest token)
-  --api-url <url>  API base (else SCRIPTGRAIN_API_URL; default https://api.scriptgrain.com)
+  --api-url <url>  API base (else SCRIPTGRAIN_API_URL; default https://auth.scriptgrain.com/functions/v1/api-v1)
   --help, -h       this help;  --version, -v
 
 Samples: 1-20 pieces, at most 5,000 words each, at least one of 50+ words.

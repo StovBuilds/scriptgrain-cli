@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-export const DEFAULT_API_URL = 'https://api.scriptgrain.com';
+export const DEFAULT_API_URL = 'https://auth.scriptgrain.com/functions/v1/api-v1';
 
 export function configDir(env = process.env) {
   if (env.SCRIPTGRAIN_CONFIG_DIR) return env.SCRIPTGRAIN_CONFIG_DIR;
